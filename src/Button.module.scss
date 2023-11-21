@@ -1,0 +1,18 @@
+@import "./styles/settings.scss";
+
+.button {
+  background-color: $color-button;
+  color: $color-light;
+  padding: 12px 12px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+  border-radius: $radius;
+  border: none;
+  transition: $transition;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: $color-button--hover;
+}
