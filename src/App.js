@@ -21,9 +21,7 @@ function App() {
 
   useEffect(() => {
     if (isRunning) {
-      let intervalId;
-
-      intervalId = setInterval(() => {
+      const intervalId = setInterval(() => {
         setTime((prevState) => prevState + 1);
       }, 1);
 
